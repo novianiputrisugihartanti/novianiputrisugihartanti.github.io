@@ -1307,7 +1307,7 @@ p {
     }
 
     .culture-img img {
-        width: 180px;
+        width: 70%;
     }
 
     .culture-img {
@@ -1339,6 +1339,28 @@ p {
 
     .culture ul li {
         padding: 10px 20px;
+    }
+    
+        .text-container p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 50px; 
+    }
+
+    .scrolltop {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+
+    .play-btn {
+        width: 210px; 
+        height: 70px; 
+        font-size: 30px; 
     }
 }
 
